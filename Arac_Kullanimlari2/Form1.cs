@@ -16,5 +16,17 @@ namespace Arac_Kullanimlari2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            comboBox1.Items.Add("Antalya");
+            //eğer kodsuz eklemek istersen üzerine bir tane tıkla
+           //items öge ekle mor küp gördügümüz yere () acıp kapat yani bu methoddur
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            comboBox1.Items.Add(textBox1.Text);
+        }
     }
 }
