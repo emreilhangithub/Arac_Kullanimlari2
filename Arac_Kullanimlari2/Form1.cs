@@ -28,5 +28,17 @@ namespace Arac_Kullanimlari2
         {
             comboBox1.Items.Add(textBox1.Text);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("Danışma");
+            listBox1.Items.Add("Çaycı");
+            listBox1.Items.Add("Satış Danışmanı");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add(textBox2.Text);
+        }
     }
 }
