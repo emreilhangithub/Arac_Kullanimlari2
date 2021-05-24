@@ -39,6 +39,18 @@ namespace Arac_Kullanimlari2
             this.button4 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -144,12 +156,123 @@ namespace Arac_Kullanimlari2
             this.label2.TabIndex = 7;
             this.label2.Text = "Meslek Giriniz";
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(892, 337);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(298, 63);
+            this.button5.TabIndex = 15;
+            this.button5.Text = "Ödevi Tamamla";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(1073, 74);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(150, 42);
+            this.textBox3.TabIndex = 14;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(893, 19);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(330, 35);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Ödev2 Bilgileri Doldurunuz";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(1075, 126);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(145, 42);
+            this.textBox4.TabIndex = 16;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(1073, 170);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(150, 42);
+            this.textBox5.TabIndex = 17;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(1070, 221);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(150, 42);
+            this.textBox6.TabIndex = 18;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(1073, 269);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(150, 42);
+            this.textBox7.TabIndex = 19;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(835, 77);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(194, 53);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Ad Giriniz";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(835, 129);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(191, 53);
+            this.label5.TabIndex = 21;
+            this.label5.Text = "Soyad Gir";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(835, 173);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(179, 35);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Meslek Giriniz";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(835, 221);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(204, 53);
+            this.label7.TabIndex = 23;
+            this.label7.Text = "Yaş Giriniz";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(819, 269);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(237, 53);
+            this.label8.TabIndex = 24;
+            this.label8.Text = "Maaş Giriniz";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 35F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.YellowGreen;
-            this.ClientSize = new System.Drawing.Size(1149, 457);
+            this.ClientSize = new System.Drawing.Size(1251, 529);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
@@ -181,6 +304,18 @@ namespace Arac_Kullanimlari2
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
     }
 }
 
